@@ -18,23 +18,24 @@ I got hands-on experience in researching and understanding security policies, de
 
 Password reset flows are one of the most commonly abused paths into an account, mainly because organizations have to balance making them usable enough that legitimate users don't get locked out, while ensuring they're resistant enough that an attacker can't just talk their way past verification.
 
-## Purpose
+#Project
+## Issue
 
-Lack of a comprehensive identity management - Password resets (self-service and service desk assisted) feature for corporate Active Directory (AD) accounts. From what I researched, this is an important security concern, and attackers can easily abuse a password reset feature if it does not comply with the procedure below.
+Lack of a comprehensive identity management - password reset (self-service and service desk assisted) feature for corporate Active Directory (AD) accounts. From what I researched, this is an important security concern, and attackers can easily abuse a password reset feature if it does not comply with the procedure below.
 
 ## Scope
 
-The scope of the procedures includes corporate employee and contractor accounts in an enterprise AD environment. It includes hybrid identity systems that use a self-service password reset (SSPR) portal with a password writeback to an onsite AD. The scope does not include other types of accounts including privileged or administrator accounts, as these require more secure practices. Procedure protection includes passwords, MFA methods, recovery information, reset tickets and audit logs.
+The scope of the procedures includes corporate employee and contractor accounts in an enterprise AD environment. It includes hybrid identity systems that use a self-service password reset (SSPR) portal with a password writeback to an on-site AD. The scope does not include other types of accounts, including privileged or administrator accounts, as these require more secure practices. Procedure protection includes passwords, MFA methods, recovery information, reset tickets, and audit logs.
 
 ## Published Standard
 
-I based my documentation on NIST SP 800-63B and Microsoft Entra ID, which gives lots of guidance on password handling, account recovery and rate limiting. The main takeaway is that security questions are weaker in comparison to MFA, recovery codes, or controlled identity proofing.
+I based my documentation on NIST SP 800-63B and Microsoft Entra ID, which gives lots of guidance on password handling, account recovery, and rate limiting. The main takeaway is that security questions are weaker in comparison to MFA, recovery codes, or controlled identity proofing.
 
 ## Procedure
 
 1. Confirm the account is in scope and not a privileged or service account.
 2. If self-service is available, direct the user to the approved SSPR portal first.
-3. Require the user to verify identity via two different methods, such as authenticator app and a phone or email.
+3. Require the user to verify identity via two different methods, such as an authenticator app and a phone or email.
 4. No security questions as reset methods.
 5. After identity is verified, allow the user to create a new password that follows the company password policy.
 6. If self-service is not possible, the service desk must open a ticket before proceeding.
@@ -44,7 +45,7 @@ I based my documentation on NIST SP 800-63B and Microsoft Entra ID, which gives 
 
 ## Validation
 
-1. Logs and tickets must be reviewed and rest each month. The organization must confirm that password reset events are being recorded, and that service desk tickets document the verification method used.
+1. Logs and tickets must be reviewed and reset each month. The organization must confirm that password reset events are being recorded, and that service desk tickets document the verification method used.
 2. Organization must test the process quarterly by attempting failed verifications, confirming lockout behavior, and checking that excluded accounts are denied or escalated properly.
 
 ## Source Documents
