@@ -2,23 +2,23 @@
 
 **Identity Management Policy: Password Reset Procedure** — a technical research project developed for a network security course (COMP 348), covering policy scope, standards research, a step-by-step procedure, and validation for a hybrid Active Directory password reset process.
 
-## What I Did
+### What I Did
 
 I completed a technical research project that involved the preparation of a security policy, adoption of a best practice, and the development of a procedure. I created and documented a single technical operation for the following policy area: Comprehensive identity management - Password resets (self-service and service desk assisted).
 
-## How I Did It
+### How I Did It
 
 I researched and reviewed real examples of cybersecurity policies, procedures, and best practices. I found and based my documentation on NIST SP 800-63B and Microsoft Entra ID.
 
-## Key Learning
+### Key Learning
 
 I got hands-on experience in researching and understanding security policies, developing a scope for my procedure, reviewing and selecting an official standard/guideline/best-practice, implementing the procedure, and ensuring a proper way to validate it.
 
-## Relevance
+### Relevance
 
 Password reset flows are one of the most commonly abused paths into an account, mainly because organizations have to balance making them usable enough that legitimate users don't get locked out, while ensuring they're resistant enough that an attacker can't just talk their way past verification.
 
-#Project
+# Project
 ## Issue
 
 Lack of a comprehensive identity management - password reset (self-service and service desk assisted) feature for corporate Active Directory (AD) accounts. From what I researched, this is an important security concern, and attackers can easily abuse a password reset feature if it does not comply with the procedure below.
