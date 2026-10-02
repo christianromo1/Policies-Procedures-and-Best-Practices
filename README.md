@@ -1,7 +1,7 @@
 # Cybersecurity Policies, Procedures & Best Practices
 
 ## Project Overview
-**Identity Management Policy: Password Reset Procedure** — a technical research project developed for a network security course (COMP 348), covering policy scope, standards research, a step-by-step procedure, and validation for a hybrid Active Directory password reset process.
+**Identity Management Policy: Password Reset Procedure**: a technical research project developed for a network security course (COMP 348), covering policy scope, standards research, a step-by-step procedure, and validation for a hybrid Active Directory password reset process.
 
 ### What I Did:
 
@@ -22,7 +22,7 @@ Password reset flows are one of the most commonly abused paths into an account, 
 # Project
 ## Issue
 
-Lack of a comprehensive identity management - password reset (self-service and service desk assisted) feature for corporate Active Directory (AD) accounts. From what I researched, this is an important security concern, and attackers can easily abuse a password reset feature if it does not comply with the procedure below.
+Lack of a comprehensive identity management - password reset (self-service and service desk-assisted) feature for corporate Active Directory (AD) accounts. From what I researched, this is an important security concern, and attackers can easily abuse a password reset feature if it does not comply with the procedure below.
 
 ## Scope
 
