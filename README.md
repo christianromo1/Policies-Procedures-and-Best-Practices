@@ -46,14 +46,18 @@ I based my documentation on NIST SP 800-63B and Microsoft Entra ID, which gives 
 
 ## Validation
 
-1. Logs and tickets must be reviewed and reset each month. The organization must confirm that password reset events are being recorded, and that service desk tickets document the verification method used.
+1. Logs and tickets must be reviewed each month. The organization must confirm that password reset events are being recorded, and that service desk tickets document the verification method used.
 2. Organization must test the process quarterly by attempting failed verifications, confirming lockout behavior, and checking that excluded accounts are denied or escalated properly.
+
+## Skills Used
+
+Security policy and procedure writing, identity and access management (IAM), Active Directory and Microsoft Entra ID self-service password reset (SSPR), multi-factor authentication, standards research (NIST SP 800-63B), service desk identity verification, audit logging and validation testing, technical writing
 
 ## Source Documents
 
-- [Original Submission (348-ROMO.pdf)](docs/348-ROMO-original-submission.pdf) — the complete project exactly as submitted, including full references.
-- [Assignment Specifications (proj2-348.pdf)](docs/proj2-348-assignment-specifications.pdf) — the original project brief and grading rubric.
+- [Original Submission (348-ROMO.pdf)](docs/348-ROMO-original-submission.pdf): the complete project exactly as submitted, including full references.
+- [Assignment Specifications (proj2-348.pdf)](docs/proj2-348-assignment-specifications.pdf): the original project brief and grading rubric.
 
 ---
 
-Written by [Christian Romo](https://github.com/christianromo1) — aspiring Cybersecurity Analyst. More projects at [github.com/christianromo1](https://github.com/christianromo1/christianromo1).
+Written by [Christian Romo](https://github.com/christianromo1), aspiring Cybersecurity Analyst. More projects at [github.com/christianromo1](https://github.com/christianromo1/christianromo1).
